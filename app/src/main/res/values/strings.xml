@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">Fincasys</string>
+    <string name="property_details">Property Details(0%)</string>
+    <string name="status_property">Status of your property</string>
+    <string name="transaction_type">Transaction Type</string>
+    <string name="new_property">New Property</string>
+    <string name="resale">Resale</string>
+    <string name="available_from">Available From</string>
+    <string name="price">40</string>
+    <string name="magic_cash">Magic Cash</string>
+    <string name="under_construction">Under Constuction</string>
+    <string name="ready_move">Ready to Move</string>
+    <string name="check_desc">I am posting this property exclusively on \n  Fincasys</string>
+    <string name="your_balance">Your Balance</string>
+    <string name="cash_magic">Magic Cash 50</string>
+    <string name="add_photos">Add Photos</string>
+    <string name="add_desc">Share the photos of your property to \n get more responses</string>
+    <string name="magic_cash_price">500 Magic Cash</string>
+    <string name="image_desc"><![CDATA[Accepted formats are .jpg,.gif,.bmp & .png]]></string>
+    <string name="later">LATER</string>
 </resources>

@@ -129,7 +129,7 @@
                         android:layout_height="wrap_content"
                         android:padding="@dimen/_10sdp"
                         android:layout_marginLeft="@dimen/_10sdp"
-                        android:text="@string/new_property"
+                        android:text="@string/available_from"
                         android:textColor="@color/black"
                         android:textSize="@dimen/_14ssp"
                         android:textStyle="bold" />
