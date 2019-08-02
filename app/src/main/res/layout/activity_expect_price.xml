@@ -69,6 +69,7 @@
                 android:layout_marginRight="@dimen/_15sdp"
                 android:layout_marginTop="@dimen/_20sdp"
                 android:textSize="@dimen/_14ssp"
+                android:inputType="number"
                 android:textColor="@color/black"/>
             <EditText
                 android:layout_width="match_parent"
@@ -127,7 +128,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:entries="@array/types"
+                    android:entries="@array/type"
                     android:layout_marginLeft="@dimen/_10sdp"
                     android:layout_marginRight="@dimen/_15sdp">
                 </Spinner>

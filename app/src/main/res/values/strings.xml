@@ -7,4 +7,28 @@
     <string name="NewProject">New Projects</string>
     <string name="Commercialpro">Commercial Properties</string>
     <string name="sell">Sell / Rent my Property</string>
+    <string name="property_details">Property Details(0%)</string>
+    <string name="add_photos">Add Photos</string>
+    <string name="add_desc">Share the photos of your property to \n get more responses</string>
+    <string name="magic_cash_price">500 Magic Cash</string>
+    <string name="image_desc"><![CDATA[Accepted formats are .jpg,.gif,.bmp & .png]]></string>
+    <string name="later">LATER</string>
+    <string name="price_expect">Price Your Expect</string>
+    <string name="enter_price">Enter Price</string>
+    <string name="price_sqft">Price Per Sqft</string>
+    <string name="other_charges">Other Changes</string>
+    <string name="add_desc1"><![CDATA[Stamp Duty & Registration changes excluded]]></string>
+    <string name="maintenance_changes">Maintenance Changes</string>
+    <string name="add_desc2">I am not intrested n getting response fom brokers</string>
+    <string name="your_balance">Your Balance</string>
+    <string name="cash_magic">Magic Cash 50</string>
+    <string-array name="type">
+        <item>Monthly</item>
+        <item>Yearly</item>
+        <item>Quartly</item>
+
+    </string-array>
+
+
+
 </resources>
