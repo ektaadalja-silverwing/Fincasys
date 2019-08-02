@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">Fincasys</string>
-    <string name="detail">Asif, So what brought you \nhere?</string>
+    <string name="detail">What type of property is it?</string>
     <string name="Buy">Buy</string>
+    <string name="protype">Property type</string>
     <string name="Rent">Rent</string>
     <string name="NewProject">New Projects</string>
     <string name="Commercialpro">Commercial Properties</string>
