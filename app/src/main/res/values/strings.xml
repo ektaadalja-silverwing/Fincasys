@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Fincasys</string>
     <string name="detail">What type of property is it?</string>
     <string name="Buy">Buy</string>
@@ -7,6 +7,20 @@
     <string name="NewProject">New Projects</string>
     <string name="Commercialpro">Commercial Properties</string>
     <string name="sell">Sell / Rent my Property</string>
+    <string name="Post">Post a new Property</string>
+    <string name="Manage">Manage Existing Property</string>
+    <string name="Sell">Sell</string>
+    <string name="pg">PG</string>
+    <string name="detailInfo">Asif, You are here to</string>
+    <string name="propertydetail">What type of Property is it?</string>
+    <string name="Residential">Residential</string>
+    <string name="property_details1" tools:ignore="DuplicateDefinition">Property Details</string>
+    <string name="Commercial">Commercial</string>
+    <string name="your_balance">Your Balance</string>
+    <string name="cash_magic">Magic Cash</string>
+    <string name="propertylocation">Where is property \nlocated?</string>
+    <string name="Project">Enter Project/Society or Locality</string>
+    <string name="Address">Type Address(flatno,blockno,Society)</string>
     <string name="property_details">Property Details(0%)</string>
     <string name="add_photos">Add Photos</string>
     <string name="add_desc">Share the photos of your property to \n get more responses</string>
@@ -20,8 +34,8 @@
     <string name="add_desc1"><![CDATA[Stamp Duty & Registration changes excluded]]></string>
     <string name="maintenance_changes">Maintenance Changes</string>
     <string name="add_desc2">I am not intrested n getting response fom brokers</string>
-    <string name="your_balance">Your Balance</string>
-    <string name="cash_magic">Magic Cash 50</string>
+    <string name="your_balance" tools:ignore="DuplicateDefinition">Your Balance</string>
+    <string name="cash_magic" tools:ignore="DuplicateDefinition">Magic Cash 50</string>
     <string-array name="type">
         <item>Monthly</item>
         <item>Yearly</item>

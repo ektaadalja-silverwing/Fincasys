@@ -1,11 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.SellActivity">
+    tools:context=".MainActivity"
+    android:background="@color/white"
+    android:orientation="vertical">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:textStyle="bold"
+        android:text="@string/detailInfo"
+        android:textColor="@color/quantum_black_100"
+        android:textSize="@dimen/_20ssp"
+        android:layout_marginTop="@dimen/_50ssp"/>
+    <LinearLayout
+        android:id="@+id/linPost"
+        android:tag="0"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
 
+        <TextView
+            style="@style/TextStyle"
+            android:text="@string/Post" />
+        <RadioButton
+            android:id="@+id/rdPost"
+            style="@style/RadioSytle" />
+    </LinearLayout>
+    <View
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:background="@color/quantum_grey300"
+        android:layout_height="@dimen/_1sdp"/>
+    <LinearLayout
+        android:id="@+id/linManage"
+        android:tag="0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TextStyle"
+            android:text="@string/Manage" />
+        <RadioButton
+            android:id="@+id/rdManage"
+            style="@style/RadioSytle" />
+    </LinearLayout>
+    <View
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:background="@color/quantum_grey300"
+        android:layout_height="@dimen/_1sdp"/>
 </LinearLayout>

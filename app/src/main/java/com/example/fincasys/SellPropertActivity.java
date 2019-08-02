@@ -9,7 +9,7 @@ import android.widget.LinearLayout;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class SellActvity extends AppCompatActivity {
+public class SellPropertActivity extends AppCompatActivity {
     @BindView(R.id.linPost)
     LinearLayout linPost;
     @BindView(R.id.linManage)
@@ -26,7 +26,7 @@ public class SellActvity extends AppCompatActivity {
         linPost.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(),PropertyTypesActivity.class));
+                startActivity(new Intent(getApplicationContext(), PropertyTypesActivity.class));
             }
         });
     }

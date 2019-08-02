@@ -9,21 +9,24 @@ import android.widget.LinearLayout;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class SellActvity extends AppCompatActivity {
-    @BindView(R.id.linPost)
-    LinearLayout linPost;
-    @BindView(R.id.linManage)
-    LinearLayout linManage;
+public class PostNewPropertyActivity extends AppCompatActivity {
+    @BindView(R.id.linRent)
+    LinearLayout linRent;
+    @BindView(R.id.linearSell)
+    LinearLayout linSell;
+    @BindView(R.id.linPg)
+    LinearLayout linPg;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sell);
+        setContentView(R.layout.activity_post);
+        getSupportActionBar().hide();
         ButterKnife.bind(this);
         initComponent();
     }
 
     private void initComponent() {
-        linPost.setOnClickListener(new View.OnClickListener() {
+        linSell.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getApplicationContext(),PropertyTypesActivity.class));
