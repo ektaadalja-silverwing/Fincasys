@@ -1,39 +1,10 @@
 <resources>
     <string name="app_name">Fincasys</string>
-    <string name="detail">Asif, So what brought you \nhere?</string>
+    <string name="detail">What type of property is it?</string>
     <string name="Buy">Buy</string>
-    <string name="later">LATER</string>
-    <string name="property_details">Property Details</string>
-    <string name="add_photos">Add Photos</string>
-    <string name="add_desc">Share the photos of  your property to \n  get more responses</string>
-    <string name="magic_cash_price">500 Mogic Cash</string>
-    <string name="image_desc">Accepted formats are .jpg, .gif, .bmp,.png</string>
-    <string name="status_property">Satuts of your Property</string>
-    <string name="your_balance">Your Balance</string>
-    <string name="cash_magic">Magic Cash 50</string>
-    <string name="price_expect">Price your Expect</string>
-    <string name="enter_price">Enter Price</string>
-    <string name="price_sqft">Price per Sqft</string>
-    <string name="other_charges">Other Charges</string>
-    <string name="check_desc1"><![CDATA[Stamp Duty & Registration changes exclued]]></string>
-    <string name="add_desc1"><![CDATA[Stamp Duty & Resgistration changes excluded]]></string>
-    <string name="maintenance_changes">Maintenence changes</string>
-    <string name="add_desc2">I am not intrested in getting response \n from brokers.</string>
-    <string name="ready_move">Ready to Move</string>
-    <string name="transaction_type">Transaction Type</string>
-    <string name="new_property">New Property</string>
-    <string name="resale">Resale</string>
-    <string name="available_from">Available From</string>
-    <string name="price">40</string>
-    <string name="magic_cash">Magic Cash</string>
-    <string name="under_construction">Under Construction</string>
-    <string name="check_desc">I am posting this property exclusively on\n Fincasys</string>
-
-    <string-array name="types">
-
-        <item>Monthly</item>
-        <item>Yearly</item>
-        <item>Quartly</item>
-
-    </string-array>
+    <string name="protype">Property type</string>
+    <string name="Rent">Rent</string>
+    <string name="NewProject">New Projects</string>
+    <string name="Commercialpro">Commercial Properties</string>
+    <string name="sell">Sell / Rent my Property</string>
 </resources>

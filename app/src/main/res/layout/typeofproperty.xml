@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_50ssp"
+        android:text="@string/detail"
+        android:textColor="@color/quantum_black_100"
+        android:textSize="@dimen/_20ssp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/residential"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/mybutton"
+            android:text="Residential" />
+
+        <Button
+            android:id="@+id/commercial"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/mybutton"
+            android:text="commercial" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:background="#F0ECEC">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:text="@string/protype"
+            android:textAlignment="center"
+            android:textColor="@color/Black"
+            android:textSize="@dimen/_12sdp" />
+
+        <ImageView
+            android:layout_width="43dp"
+            android:layout_height="23dp"
+            android:layout_marginLeft="@dimen/_180sdp"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:src="@drawable/information" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linBuy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:orientation="horizontal"
+        android:tag="0">
+
+        <TextView
+            style="@style/TextStyle"
+            android:textColor="#818080"
+            android:text="Flat / Apartment" />
+
+        <RadioButton
+            android:id="@+id/rdBuy"
+            style="@style/RadioSytle" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@color/quantum_grey300" />
+
+    <LinearLayout
+        android:id="@+id/linRent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:tag="0">
+
+        <TextView
+            style="@style/TextStyle"
+            android:textColor="#818080"
+            android:text="House" />
+
+        <RadioButton
+            android:id="@+id/rdRent"
+            style="@style/RadioSytle" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@color/quantum_grey300" />
+
+    <LinearLayout
+        android:id="@+id/linNewPro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:tag="0">
+
+        <TextView
+            style="@style/TextStyle"
+            android:textColor="#818080"
+            android:text="Villa" />
+
+        <RadioButton
+            android:id="@+id/rdNew"
+            style="@style/RadioSytle" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@color/quantum_grey300" />
+
+    <LinearLayout
+        android:id="@+id/linComm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:tag="0">
+
+        <TextView
+            style="@style/TextStyle"
+            android:textColor="#818080"
+            android:text="Builder Floor" />
+
+        <RadioButton
+            android:id="@+id/rdComm"
+            style="@style/RadioSytle" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@color/quantum_grey300" />
+ <LinearLayout
+        android:id="@+id/plot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:tag="0">
+
+        <TextView
+            style="@style/TextStyle"
+            android:textColor="#818080"
+            android:text="Plot" />
+
+        <RadioButton
+            android:id="@+id/rdplot"
+            style="@style/RadioSytle" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@color/quantum_grey300" />
+<LinearLayout
+        android:id="@+id/stapp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:tag="0">
+
+        <TextView
+            style="@style/TextStyle"
+            android:textColor="#818080"
+            android:text="Studio Appartment" />
+
+        <RadioButton
+            android:id="@+id/rdstapp"
+            style="@style/RadioSytle" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@color/quantum_grey300" />
+<LinearLayout
+        android:id="@+id/penth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:tag="0">
+
+        <TextView
+            style="@style/TextStyle"
+            android:textColor="#818080"
+            android:text="Pent House" />
+
+        <RadioButton
+            android:id="@+id/rdpenth"
+            style="@style/RadioSytle" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@color/quantum_grey300" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@color/quantum_grey300" />
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src=""/>
+
+
+</LinearLayout>
+</ScrollView>
