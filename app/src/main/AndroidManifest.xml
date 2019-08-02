@@ -16,6 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".BuyActivity"/>
+        <activity android:name=".CommercialActivity"/>
+        <activity android:name=".NewProjectActivity"/>
+        <activity android:name=".RentActivity"/>
+        <activity android:name=".SellActvity"/>
     </application>
 
 </manifest>

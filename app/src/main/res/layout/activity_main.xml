@@ -16,16 +16,121 @@
         android:textSize="@dimen/_20ssp"
         android:layout_marginTop="@dimen/_50ssp"/>
     <LinearLayout
+        android:id="@+id/linBuy"
+        android:tag="0"
+        android:layout_marginTop="@dimen/_10sdp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <TextView
             style="@style/TextStyle"
-            android:text="@string/Buy"
-             />
-
+            android:text="@string/Buy" />
         <RadioButton
+            android:id="@+id/rdBuy"
             style="@style/RadioSytle" />
     </LinearLayout>
+    <View
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:background="@color/quantum_grey300"
+        android:layout_height="@dimen/_1sdp"/>
+    <LinearLayout
+        android:id="@+id/linRent"
+        android:tag="0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TextStyle"
+            android:text="@string/Rent" />
+        <RadioButton
+            android:id="@+id/rdRent"
+            style="@style/RadioSytle" />
+    </LinearLayout>
+    <View
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:background="@color/quantum_grey300"
+        android:layout_height="@dimen/_1sdp"/>
+    <LinearLayout
+        android:id="@+id/linNewPro"
+        android:tag="0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TextStyle"
+            android:text="@string/NewProject" />
+        <RadioButton
+            android:id="@+id/rdNew"
+            style="@style/RadioSytle" />
+    </LinearLayout>
+    <View
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:background="@color/quantum_grey300"
+        android:layout_height="@dimen/_1sdp"/>
+    <LinearLayout
+        android:id="@+id/linComm"
+        android:tag="0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TextStyle"
+            android:text="@string/Commercialpro" />
+        <RadioButton
+            android:id="@+id/rdComm"
+            style="@style/RadioSytle" />
+    </LinearLayout>
+    <View
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:background="@color/quantum_grey300"
+        android:layout_height="@dimen/_1sdp"/>
+
+    <RelativeLayout
+        android:id="@+id/relSell"
+        android:layout_width="394dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvRent"
+            android:tag="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textSize="@dimen/_12ssp"
+            android:text="@string/sell" />
+
+        <TextView
+            android:id="@+id/tvFree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_toRightOf="@+id/tvRent"
+            android:background="@color/quantum_yellow"
+            android:text="FREE" />
+
+        <RadioButton
+            android:id="@+id/rdSell"
+            android:layout_width="51dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_90sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_toRightOf="@+id/tvFree"
+            android:gravity="end" />
+    </RelativeLayout>
+    <View
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:background="@color/quantum_grey300"
+        android:layout_height="@dimen/_1sdp"/>
 </LinearLayout>

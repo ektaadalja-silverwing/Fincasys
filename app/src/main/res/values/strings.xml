@@ -2,4 +2,8 @@
     <string name="app_name">Fincasys</string>
     <string name="detail">Asif, So what brought you \nhere?</string>
     <string name="Buy">Buy</string>
+    <string name="Rent">Rent</string>
+    <string name="NewProject">New Projects</string>
+    <string name="Commercialpro">Commercial Properties</string>
+    <string name="sell">Sell / Rent my Property</string>
 </resources>
